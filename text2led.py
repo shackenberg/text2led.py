@@ -36,7 +36,7 @@ the other two.
 
 -----------------------
 
-Prepartions:
+Preparations:
 
 - find out the right serialport
   for Windows it is "\\.\COM3" in my experince
