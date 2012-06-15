@@ -158,6 +158,7 @@ def virtualDJ(ledz,settings="<L1><PA><FE><MQ><WC><FA>"):
                 pivot = input_line.find(' : ')
                 ledz.send(settings+input_line[pivot+3:])  
             old_time = new_time  
+        time.sleep(1)
     del ledz
  
 def itunes(ledz,settings="<L1><PA><FE><MQ><WC><FA>"):  
