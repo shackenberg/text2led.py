@@ -1,12 +1,13 @@
 text2led.py
 ===========
 
-This is a python script to control led display boards or 'led ticker' via serial or usb connection.
+This is a python script to control led display boards also known as led bars or led ticker via serial or usb connection.
 
-The script works at least with following displays.
+The script works at least with following displays:
 - Skytronic MSB-67 / 153.141
 - Velleman MML16CN 
-- AM004-03127 
+- AM004-03127 (the Conrad Laufschrift)
+
 Please inform me, if it also works with other models.
 
 The core class is taken from:
@@ -19,7 +20,7 @@ The script offers three modi operandi:
 
 - Manual: The script waits for input via the cmd line.
 
-- ITunes: The script uses AppleScript to poll ITunes every second for current song's name and artist. Only on OSX
+- iTunes: The script uses AppleScript to poll ITunes every second for current song's name and artist. Only on OSX
 
 - VirtualDJ: The script checks every second the history of the DJ program VirtualDJ for new entries and outputs the last entrie's song name and artist. Tested on Windows7 and OSX. 
 
